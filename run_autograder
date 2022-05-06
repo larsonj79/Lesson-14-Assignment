@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/Lesson_14_Assignment_Logistic_Regression.R /autograder/source/Lesson_14_Assignment_Logistic_Regression.R
+
+cd /autograder/source
+
+
+Rscript grade_one_submission.r 
